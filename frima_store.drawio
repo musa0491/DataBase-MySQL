@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T12:54:56.260Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="BdOPdNdiW6CCeWefWEgD" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T13:02:18.494Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="6eddXej1d8TBs_VzHo2n" version="20.8.20" type="github">
   <diagram name="Page-1" id="SVbKECjQl2XM67rzGYeP">
-    <mxGraphModel dx="778" dy="1693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="778" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pBAa3s3Ywd2KK1XXBsn_-1" value="staffs" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="50" y="230" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="pBAa3s3Ywd2KK1XXBsn_-2" value="staff_id (int)&#xa;first_name (varchar)&#xa;other_names (varchar)&#xa;phone_number (varchar)&#xa;home_address (text)&#xa;country (varchar)&#xa;state (varchar)&#xa;city (varchar)&#xa;date_of_birth (date)&#xa;date_of_apointment (date)&#xa;salary (int)&#xa;guarantor (varchar)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="pBAa3s3Ywd2KK1XXBsn_-1">
+        <mxCell id="pBAa3s3Ywd2KK1XXBsn_-2" value="staff_id (int)&#xa;position (varchar)&#xa;first_name (varchar)&#xa;other_names (varchar)&#xa;phone_number (varchar)&#xa;home_address (text)&#xa;country (varchar)&#xa;state (varchar)&#xa;city (varchar)&#xa;date_of_birth (date)&#xa;date_of_apointment (date)&#xa;salary (int)&#xa;guarantor (varchar)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="pBAa3s3Ywd2KK1XXBsn_-1">
           <mxGeometry y="30" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="pBAa3s3Ywd2KK1XXBsn_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="pBAa3s3Ywd2KK1XXBsn_-1" source="pBAa3s3Ywd2KK1XXBsn_-2" target="pBAa3s3Ywd2KK1XXBsn_-2">
@@ -77,7 +77,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pBAa3s3Ywd2KK1XXBsn_-27" value="Roles" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="230" y="-70" width="160" height="120" as="geometry" />
+          <mxGeometry x="220" y="10" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="pBAa3s3Ywd2KK1XXBsn_-28" value="name (string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="pBAa3s3Ywd2KK1XXBsn_-27">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
