@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T13:02:18.494Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="6eddXej1d8TBs_VzHo2n" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T13:21:52.141Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="MG605UUdHN3hHY-QXJeh" version="20.8.20" type="github">
   <diagram name="Page-1" id="SVbKECjQl2XM67rzGYeP">
     <mxGraphModel dx="778" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="pBAa3s3Ywd2KK1XXBsn_-14" value="Repair" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="334" y="410" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="pBAa3s3Ywd2KK1XXBsn_-15" value="repair_id (int)&#xa;customer_id (int)&#xa;item_name (varchar)&#xa;condition/error (varchar)&#xa;outcome (varchar)&#xa;repair_cost (int)&#xa;delivery (enum)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="pBAa3s3Ywd2KK1XXBsn_-14">
+        <mxCell id="pBAa3s3Ywd2KK1XXBsn_-15" value="repair_id (int)&#xa;customer_id (int)&#xa;item_name (varchar)&#xa;condition/error (varchar)&#xa;date (date)&#xa;outcome (varchar)&#xa;repair_cost (int)&#xa;delivery (enum)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="pBAa3s3Ywd2KK1XXBsn_-14">
           <mxGeometry y="30" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="pBAa3s3Ywd2KK1XXBsn_-23" value="&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="pBAa3s3Ywd2KK1XXBsn_-14">
@@ -79,7 +79,7 @@
         <mxCell id="pBAa3s3Ywd2KK1XXBsn_-27" value="Roles" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="220" y="10" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pBAa3s3Ywd2KK1XXBsn_-28" value="name (string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="pBAa3s3Ywd2KK1XXBsn_-27">
+        <mxCell id="pBAa3s3Ywd2KK1XXBsn_-28" value="role_id (int)&#xa;name (string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="pBAa3s3Ywd2KK1XXBsn_-27">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pBAa3s3Ywd2KK1XXBsn_-29" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.378;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pBAa3s3Ywd2KK1XXBsn_-2" target="pBAa3s3Ywd2KK1XXBsn_-28">
